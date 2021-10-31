@@ -53,7 +53,7 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 
 #### Atualizando senha do usuário
 
-- Para atualizar a senha do usuário, faça um requisição do tipo **PUT** para a rota: ```http://localhost:3931/user/update`` ou ```https://stark-bank-challenge.herokuapp.com/user/update```, passando um JSON no corpo da requisição, como o seguinte exemplo: 
+- Para atualizar a senha do usuário, faça um requisição do tipo **PUT** para a rota: ```http://localhost:3931/user/update``` ou ```https://stark-bank-challenge.herokuapp.com/user/update```, passando um JSON no corpo da requisição, como o seguinte exemplo: 
 
 
 ```JSON
