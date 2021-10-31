@@ -49,7 +49,7 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 
 #### Autenticando
 -Nesta rota você deve enviar a requisição do tipo **POST** para a rota: <br>
-```http://localhost:3931/user/auth`` ou ```https://stark-bank-challenge.herokuapp.com/user/auth```, feito isso, será retornado o id e o token jwt.<br>
+```http://localhost:3931/user/auth``` ou ```https://stark-bank-challenge.herokuapp.com/user/auth```, feito isso, será retornado o id e o token jwt.<br>
 
 #### Atualizando senha do usuário
 
