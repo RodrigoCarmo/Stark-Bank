@@ -67,7 +67,7 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 
 #### Deleção de usuário
 -Para deletar o usuário, faça um requisição do tipo **DELETE** para a rota, inserindo o id do usuário: <br>
-```http://localhost:3931/user/delete/:_id`` ou ```https://stark-bank-challenge.herokuapp.com/user/delete/:_id```, <br>
+```http://localhost:3931/user/delete/:_id``` ou ```https://stark-bank-challenge.herokuapp.com/user/delete/:_id```, <br>
 passando um JSON no corpo da requisição, como o seguinte exemplo: 
 
 #### Geração de faturas para pessoas aleatórias
