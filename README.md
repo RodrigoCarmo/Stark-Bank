@@ -1,9 +1,12 @@
 # Desafio técnico Stark Bank
 
-Realizei a criação de uma API em Node.js para executar as tarefas propostas no desafio. Essa API possui uma entidade de usuário para realizar a chamada do endpoint que realizará a geração de faturas com clientes aleatórios e consequentemente as transferências na conta solicitada. Fiz o deploy da API na plataforma ```Heroku``` e utilizei a ferramenta do site https://requestbin.com/ para auxiliar na visualização dos webhooks.
+Realizei a criação de uma API em Node.js para executar as tarefas propostas no desafio. Essa API possui uma entidade de usuário para <br> 
+realizar a chamada do endpoint que realizará a geração de faturas com clientes aleatórios e consequentemente as transferências na conta solicitada. <br>
+Fiz o deploy da API na plataforma ```Heroku``` e utilizei a ferramenta do site https://requestbin.com/ para auxiliar na visualização dos webhooks. <br>
 
 **Observações:**
-Ao realizar o deploy, pré-configurei as variáveis ambientes para o funcionamento normal, sendo assim, a url de acesso ao webhook é: ```https://ene4awkztxol5.x.pipedream.net/```` , recomendo a execução local para configurar uma própria url através da pasta ```utils```, lá você encotrará os arquivos <br> necessários para gerar as chaves privadas e públicas através das variáveis ambiente. <br>
+Ao realizar o deploy, pré-configurei as variáveis ambientes para o funcionamento normal, sendo assim, a url de acesso ao webhook é: <br> ```https://ene4awkztxol5.x.pipedream.net/```` , recomendo a execução local para configurar uma própria url através da pasta ```utils```, <br>
+lá você encotrará os arquivos <br> necessários para gerar as chaves privadas e públicas através das variáveis ambiente. <br>
 Lembre-se, ao salvar as chaves em uma variável ambiente, elas devem possuir os caracteres na mesma linha
 <br>
 Ah,a outra conta contribuinte do repositório é minha :)
@@ -23,7 +26,8 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 
 ### 🗃Rodando API
 
--Com tudo configurado e desejando o uso local basta executar o servidor normalmente, caso queira, verifique o ```package.json``` para utilizar os scripts de execução<br>
+-Com tudo configurado e desejando o uso local basta executar o servidor normalmente, caso queira, verifique o ```package.json``` <br>
+para utilizar os scripts de execução<br>
 -Para executar a API através do Heroku, utilize essa url: ```https://stark-bank-challenge.herokuapp.com/``` <br>
 
 ### 💻🖱Testando rotas
@@ -44,7 +48,8 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 
 
 #### Autenticando
--Nesta rota você deve enviar a requisição do tipo **POST** para a rota: ```http://localhost:3931/user/auth`` ou ```https://stark-bank-challenge.herokuapp.com/user/auth```, feito isso, será retornado o id e o token jwt.<br>
+-Nesta rota você deve enviar a requisição do tipo **POST** para a rota: <br>
+```http://localhost:3931/user/auth`` ou ```https://stark-bank-challenge.herokuapp.com/user/auth```, feito isso, será retornado o id e o token jwt.<br>
 
 #### Atualizando senha do usuário
 
@@ -61,12 +66,15 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 ```
 
 #### Deleção de usuário
--Para deletar o usuário, faça um requisição do tipo **DELETE** para a rota, inserindo o id do usuário: ```http://localhost:3931/user/delete/:_id`` ou ```https://stark-bank-challenge.herokuapp.com/user/delete/:_id```, passando um JSON no corpo da requisição, como o seguinte exemplo: 
+-Para deletar o usuário, faça um requisição do tipo **DELETE** para a rota, inserindo o id do usuário: <br>
+```http://localhost:3931/user/delete/:_id`` ou ```https://stark-bank-challenge.herokuapp.com/user/delete/:_id```, <br>
+passando um JSON no corpo da requisição, como o seguinte exemplo: 
 
 #### Geração de faturas para pessoas aleatórias
--Conforme o solicitado no desafio, essa rota irá disparar a sdk para gerar as faturas de 3 em 3 horas, finalizando após 24 horas. Aqui, basta apenas se autenticar através de um bearer token obtido na rota de autenticação.<br>
+-Conforme o solicitado no desafio, essa rota irá disparar a sdk para gerar as faturas de 3 em 3 horas, <br>
+finalizando após 24 horas. Aqui, basta apenas se autenticar através de um bearer token obtido na rota de autenticação.<br>
 
-Para acompanhar o webhook através de uma url de sua preferência, recomendo a execução do projeto localmente. 
+Para acompanhar o webhook através de uma url de sua preferência, recomendo a execução do projeto localmente. <br>
 
 
 
