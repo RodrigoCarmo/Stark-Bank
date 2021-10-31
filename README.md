@@ -33,7 +33,7 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 ### 💻🖱Testando rotas
 -Para executar o servidor rode ```npm run dev:server```<br>
 -Após a execução do servidor, execute uma requisição do tipo **POST** como teste na rota ```http://localhost:3931/user/create``` ou 
-```https://stark-bank-challenge.herokuapp.com/user/create``` utilizando o Insomnia ou outro de sua preferência, enviando os seguintes dados em JSON:<br>
+```https://stark-bank-challenge.herokuapp.com/user/create``` utilizando o Insomnia ou outro de sua preferência, enviando os dados como no JSON abaixo:<br>
 
 #### Criação de usuário
 
