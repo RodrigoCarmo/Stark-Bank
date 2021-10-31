@@ -27,8 +27,7 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 
 ### 🗃Rodando API
 
--Com tudo configurado e desejando o uso local basta executar o servidor normalmente, caso queira, verifique o ```package.json``` <br>
-para utilizar os scripts de execução<br>
+-Com tudo caso queira fazer uso local basta executar o servidor normalmente, verifique o ```package.json``` para utilizar os scripts de execução. <br>
 -Para executar a API através do Heroku, utilize essa url: ```https://stark-bank-challenge.herokuapp.com/``` <br>
 
 ### 💻🖱Testando rotas
