@@ -9,8 +9,8 @@ Ao realizar o deploy, pré-configurei as variáveis ambientes para o funcionamen
 lá você encotrará os arquivos <br> necessários para gerar as chaves privadas e públicas através das variáveis ambiente. <br>
 Lembre-se, ao salvar as chaves em uma variável ambiente, elas devem possuir os caracteres na mesma linha
 <br>
-Ah,a outra conta contribuinte do repositório é minha :)
-**
+Ah,a outra conta contribuinte do repositório é minha :)**
+
 
 ## 👨‍🏫Instruções
 Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuração.<br>
