@@ -1,0 +1,30 @@
+{
+  "name": "stark-bank-challenge",
+  "version": "1.0.0",
+  "description": "challenge",
+  "main": "src/index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "gerador-nome": "0.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "starkbank": "^2.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev:server": "nodemon src/index.js",
+    "generateKey": "node src/utils/StarkBank/CreatePrivateAndPublicKeys/index.js",
+    "createWebhook": "node src/utils/StarkBank/CreateWebhook/index.js"
+  },
+  "author": "Rodrigo Carmo",
+  "license": "ISC"
+}
