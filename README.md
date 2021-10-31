@@ -1,12 +1,10 @@
 # Desafio técnico Stark Bank
 
-Realizei a criação de uma API em Node.js para executar as tarefas propostas no desafio. Essa API possui uma entidade de usuário para realizar a chamada do endpoint que realizará a geração de faturas com clientes aleatórios e consequentemente as transferências na conta solicitada. Fiz o deploy da API na plataforma ```Heroku``` e utilizei a ferramenta do site https://requestbin.com/ para auxiliar na visualização dos webhooks.
+Realizei a criação de uma API em Node.js para executar as tarefas propostas no desafio. Essa API possui uma entidade de usuário para realizar a chamada do endpoint que<br> realizará a geração de faturas com clientes aleatórios e consequentemente as transferências na conta solicitada. Fiz o deploy da API na plataforma ```Heroku``` e utilizei a ferramenta do site https://requestbin.com/ para auxiliar na visualização dos webhooks.
 
 **Observações:**
 Ao realizar o deploy, pré-configurei as variáveis ambientes para o funcionamento normal, sendo assim, a url de acesso ao webhook é: ```https://ene4awkztxol5.x.pipedream.net/```` , recomendo a execução local para configurar uma própria url através da pasta ```utils```, lá você encotrará os arquivos <br> necessários para gerar as chaves privadas e públicas através das variáveis ambiente. <br>
-Lembre-se, ao salvar as chaves em uma variável ambiente, elas devem possuir os caracteres na mesma linha, como por exemplo:<br>
-
-```PUBLIC_KEY=-----BEGIN PUBLIC KEY-----MFYwEAYHKoZIzj0CAQYFK4EEAAoDQgAEFN+7nD0eAYqgAjHPNyYuX+YW6hIx0lQG7qUSCI0by+Q21Mm3BA8uUlQixAod6rW+rlZ7ggbYu1NRTiXlCYWnGA==-----END PUBLIC KEY-----```
+Lembre-se, ao salvar as chaves em uma variável ambiente, elas devem possuir os caracteres na mesma linha
 <br>
 Ah,a outra conta contribuinte do repositório é minha :)
 
