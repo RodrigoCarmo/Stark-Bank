@@ -1,6 +1,6 @@
 # Desafio técnico Stark Bank
 
-Realizei a criação de uma API em Node.js para executar as tarefas propostas no desafio. Essa API possui uma entidade de usuário para realizar a chamada do endpoint que<br> realizará a geração de faturas com clientes aleatórios e consequentemente as transferências na conta solicitada. Fiz o deploy da API na plataforma ```Heroku``` e utilizei a ferramenta do site https://requestbin.com/ para auxiliar na visualização dos webhooks.
+Realizei a criação de uma API em Node.js para executar as tarefas propostas no desafio. Essa API possui uma entidade de usuário para realizar a chamada do endpoint que realizará a geração de faturas com clientes aleatórios e consequentemente as transferências na conta solicitada. Fiz o deploy da API na plataforma ```Heroku``` e utilizei a ferramenta do site https://requestbin.com/ para auxiliar na visualização dos webhooks.
 
 **Observações:**
 Ao realizar o deploy, pré-configurei as variáveis ambientes para o funcionamento normal, sendo assim, a url de acesso ao webhook é: ```https://ene4awkztxol5.x.pipedream.net/```` , recomendo a execução local para configurar uma própria url através da pasta ```utils```, lá você encotrará os arquivos <br> necessários para gerar as chaves privadas e públicas através das variáveis ambiente. <br>
@@ -24,11 +24,11 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 ### 🗃Rodando API
 
 -Com tudo configurado e desejando o uso local basta executar o servidor normalmente, caso queira, verifique o ```package.json``` para utilizar os scripts de execução<br>
--Para executar a API através do Heroku, utilize essa url: ```https://stark-bank-challenge.herokuapp.com/```
+-Para executar a API através do Heroku, utilize essa url: ```https://stark-bank-challenge.herokuapp.com/``` <br>
 
 ### 💻🖱Testando rotas
 -Para executar o servidor rode ```npm run dev:server```<br>
--Após a execução do servidor, execute uma requisição do tipo **POST** como teste na rota ```http://localhost:3931/user/create``` ou <br>
+-Após a execução do servidor, execute uma requisição do tipo **POST** como teste na rota ```http://localhost:3931/user/create``` ou 
 ```https://stark-bank-challenge.herokuapp.com/user/create``` utilizando o Insomnia ou outro de sua preferência, enviando os seguintes dados em JSON:<br>
 
 #### Criação de usuário
