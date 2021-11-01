@@ -71,8 +71,11 @@ Se deseja utilizar a API hospedada no Heroku, pode pular o trecho de configuraç
 passando um JSON no corpo da requisição, como o seguinte exemplo: 
 
 #### Geração de faturas para pessoas aleatórias
+
 -Conforme o solicitado no desafio, essa rota irá disparar a sdk para gerar as faturas de 3 em 3 horas, <br>
 finalizando após 24 horas. Aqui, basta apenas se autenticar através de um bearer token obtido na rota de autenticação.<br>
+-Acesse a seguinte rota: ```http://localhost:3931/user/generate-invoices``` ou ```https://stark-bank-challenge.herokuapp.com/user/generate-invoices``` <br>
+para iniciar a geração automática. <br>
 
 Para acompanhar o webhook através de uma url de sua preferência, recomendo a execução do projeto localmente. <br>
 
