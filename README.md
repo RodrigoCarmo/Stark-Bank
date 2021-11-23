@@ -1,4 +1,4 @@
-# Desafio técnico Stark Bank
+# Stark Bank
 
 Realizei a criação de uma API em Node.js para executar as tarefas propostas no desafio. Essa API possui uma entidade de usuário para <br> 
 realizar a chamada do endpoint que realizará a geração de faturas com clientes aleatórios e consequentemente as transferências na conta solicitada. <br>
